@@ -1,5 +1,6 @@
 #!/bin/bash
 
+yum install -y epel-release
 yum install -y hstr
 
 cat <<EOF >> $HOME/.bash_profile
